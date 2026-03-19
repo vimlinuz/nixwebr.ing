@@ -100,3 +100,14 @@ hr {
     align-self: center;
     margin: 1em auto 1em;
 }
+
+@media (max-width: 768px) {
+    body {
+        font-size: 0.95rem;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;  
+    }
+}
