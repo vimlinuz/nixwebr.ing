@@ -14,6 +14,7 @@ pub fn shift_ring(
             m.reverse();
         }
 
+        //WARN: Don't know what is the reason for having the sites with broken links in the list
         let next_index = m.iter()
             .enumerate()
             .find(|(_, WebringMember { ref site_status, .. })|
